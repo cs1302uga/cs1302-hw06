@@ -98,7 +98,7 @@ public class Email {
      */
     private void checkNull(String method, Object ... o) {
         for (Object obj: o) {
-            if (o == null) {
+            if (obj == null) {
                 throw new NullPointerException(method +
                                                ": Null Argument Provided");
             } // if
