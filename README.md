@@ -265,9 +265,9 @@ will serve as a helpful study guide for the exam.
      (we'll "pretend" that they go to the spam filter). Remember, you can always refer to the API documentation
      for the associated interface when trying to determine the layout of your lambda.
    * Declare a variable of type `Function<Email, String>` and assign to it, using a lambda expression, a reference
-     to an object that takes an `Email` object as a parameter and return the contents of the email as some
-     nicely formatted `String`. Remember, you can always refer to the API documentation
-     for the associated interface when trying to determine the layout of your lambda.
+     to an object that takes an `Email` object as a parameter and return only the contents of the email (don't include
+     `sender`, `recipient`, `date`, etc.) as some nicely formatted `String`. Remember, you can always refer to the API 
+     documentation for the associated interface when trying to determine the layout of your lambda.
    
 1. Call the `printlnMappedMatches` using your newly created variables to print out emails in the array referred
    to by `inbox` that do not come from GA Tech. In other words, we don't want to receive any emails from a 
