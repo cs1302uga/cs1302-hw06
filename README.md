@@ -282,7 +282,7 @@ will serve as a helpful study guide for the exam.
 1. Make sure your code passes the `check1302` style audit then stage and commit all changes.
 
 1. When you are convinced that everything is working properly, merge your `method2` branch into `main` as you did
-   in the previous checkpoint. You can also delete `method2` if you wish.
+   in the previous checkpoint. Do not delete the `method2` branch so we can see that you created a branch.
 
 <hr/>
 
