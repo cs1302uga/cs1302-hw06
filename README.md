@@ -268,6 +268,9 @@ will serve as a helpful study guide for the exam.
      to an object that takes an `Email` object as a parameter and return only the contents of the email (don't include
      `sender`, `recipient`, `date`, etc.) as some nicely formatted `String`. Remember, you can always refer to the API 
      documentation for the associated interface when trying to determine the layout of your lambda.
+   * **Note:** If the code you add causes your `main` method to exceed the `check1302` line limit, you can move
+     some of your code into test methods and have `main` call the test methods. Just remember to fully comment
+     your test methods.
    
 1. Call the `printlnMappedMatches` using your newly created variables to print out emails in the array referred
    to by `inbox` that do not come from GA Tech. In other words, we don't want to receive any emails from a 
