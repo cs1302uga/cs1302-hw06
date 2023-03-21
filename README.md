@@ -266,7 +266,8 @@ will serve as a helpful study guide for the exam.
      for the associated interface when trying to determine the layout of your lambda.
    * Declare a variable of type `Function<Email, String>` and assign to it, using a lambda expression, a reference
      to an object that takes an `Email` object as a parameter and return only the contents of the email (don't include
-     `sender`, `recipient`, `date`, etc.) as some nicely formatted `String`. Remember, you can always refer to the API 
+     `sender`, `recipient`, `date`, etc.) as some nicely formatted `String`. **Note:** `contents` is an instance
+     variable of the `Email` class. Also, remember that you can  refer to the API 
      documentation for the associated interface when trying to determine the layout of your lambda.
    * **Note:** If the code you add causes your `main` method to exceed the `check1302` line limit, you can move
      some of your code into test methods and have `main` call the test methods. Just remember to fully comment
