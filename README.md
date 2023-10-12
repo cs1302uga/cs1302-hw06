@@ -1,7 +1,7 @@
 
 # cs1302-hw06 Generic Method Implementation
 
-![Approved for: Spring 2023](https://img.shields.io/badge/Approved%20for-Spring%202023-magenta)
+![Approved for: Fall 2023](https://img.shields.io/badge/Approved%20for-Fall%202023-green)
 
 > ```java
 > String notSecret = "VUdBIGlzIGJldHRlciB0aGFuIEdBIFRlY2g=";
