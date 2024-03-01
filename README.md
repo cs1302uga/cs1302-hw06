@@ -1,7 +1,7 @@
 
 # cs1302-hw06 Generic Method Implementation
 
-![Approved for: Fall 2023](https://img.shields.io/badge/Approved%20for-Fall%202023-green)
+![Approved for: Spring 2024](https://img.shields.io/badge/Approved%20for-Spring%202024-blue)
 
 > ```java
 > String notSecret = "VUdBIGlzIGJldHRlciB0aGFuIEdBIFRlY2g=";
@@ -30,7 +30,7 @@ method signatures will be provided. Implementation details are left to the stude
 
 ## Questions
 
-In your notes, clearly answer the following questions. These instructions assume that you are 
+In your notes, answer the following questions. These instructions assume that you are 
 logged into the Odin server. 
 
 **NOTE:** For each step, please provide in your notes the full command that you typed to make the related 
@@ -43,7 +43,7 @@ will serve as a helpful study guide for the exam.
 ### Introduction
 
 1. In this assignment, you will be referring to multiple generic interfaces, some of which
-   have multiple generic type parameters. It's very important that you keep parameter **composition** 
+   have multiple generic type parameters. You must keep parameter **composition** 
    in mind when referring to the API documentation, especially in cases where inheritance and interfaces
    are involved. For example, consider the code snippets below. We've omitted most of the details so
    that you can focus on just what is presented. 
@@ -195,7 +195,7 @@ will serve as a helpful study guide for the exam.
    
 1. Compile and make sure your code passes the `check1302` style audit.
 
-1. Now that everything on this branch compiles, ensure that all changes 
+1. Now that everything on this branch compiled, ensure that all changes 
    in the current branch have been staged and committed. 
    **Do not execute the next command without making sure all changes are staged and committed**
    After that, checkout the `main` branch using the following command:
@@ -265,7 +265,7 @@ will serve as a helpful study guide for the exam.
      (we'll "pretend" that they go to the spam filter). Remember, you can always refer to the API documentation
      for the associated interface when trying to determine the layout of your lambda.
    * Declare a variable of type `Function<Email, String>` and assign to it, using a lambda expression, a reference
-     to an object that takes an `Email` object as a parameter and return only the contents of the email (don't include
+     to an object that takes an `Email` object as a parameter and returns only the contents of the email (don't include
      `sender`, `recipient`, `date`, etc.) as some nicely formatted `String`. **Note:** `contents` is an instance
      variable of the `Email` class. Also, remember that you can  refer to the API 
      documentation for the associated interface when trying to determine the layout of your lambda.
