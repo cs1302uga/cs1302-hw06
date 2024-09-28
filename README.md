@@ -23,8 +23,8 @@ method signatures will be provided. Implementation details are left to the stude
 
 ## References and Prerequisites
 
-* [1302 Generic Methods Reading](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/generics/generic-methods/generic-methods.md)
-* [1302 Lambda Expressions Reading](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/lambda/lambda.rst)
+* [1302 Textbook Chapter: Generics](https://cs1302uga.github.io/cs1302-book/java/generics/introduction.html)
+* 1302 Textbook Chapter: Lambda Expressions
 * [`java.util.function.Predicate` Interface Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/function/Predicate.html)
 * [`java.util.function.Function` Interface Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/function/Function.html)
 
