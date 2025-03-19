@@ -42,7 +42,18 @@ public class LambdaFun {
 
         // This line provides an implementation for the single, abstract
         // method of Predicate<String> using a lambda expression.
-        Predicate<String> containsA = (String str) -> str.contains("a");
+        Predicate<String> containsA = (String str) -> {
+            return str.contains("a");
+        };
+
+        // The lambda expression above creates an object with an override for
+        // the Predicate<String>'s test method. It's conceptually similar to 
+        // the following, which will not work as written but can be adjusted
+        // into a valid lambda expression with some minor adjustments:
+        //
+        // Predicate<String> containsA = public boolean test(String str) {
+        //     return str.contains("a");
+        // };
 
         // This line uses the object created in the previous statement to
         // make printlnMatches print only the strings that contain the letter "a".
