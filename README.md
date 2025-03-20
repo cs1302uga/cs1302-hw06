@@ -18,7 +18,7 @@ method signatures will be provided. Implementation details are left to the stude
 
 * **LO2.d:** (Partial) Implement new generic methods, interfaces, and classes in a software solution.
 * **LO2.e:** (Partial) Utilize existing generic methods, interfaces, and classes in a software solution.
-* **LO4.a:** (Partial) Design, create and use interfaces in a software solution.
+* **LO4.a:** (Partial) Design, create, and use interfaces in a software solution.
 * **LO4.b:** (Partial) Utilize interface-based polymorphism in a software solution.
 
 ## References and Prerequisites
@@ -188,7 +188,7 @@ will serve as a helpful study guide for the exam.
    
    1. **Call 1**: Outputs all strings in the array.
    1. **Call 2**: Outputs all strings that are less than 6 characters.
-   1. **Call 3**: **Tricky:** Outputs all strings that contain two or more a's.
+   1. **Call 3 (tricky):** Outputs all strings that contain two or more a's.
 
 1. Once you are confident that your method calls are correct, check your output against the [expected output](expected.md).
    If your output does not match the expected output, revise your method calls or your lambda expressions.
@@ -321,8 +321,8 @@ will serve as a helpful study guide for the exam.
    
    Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
    in that output. Additionally, if successful, the `submit` command creates a new receipt file in the directory you 
-   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
-   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+   submitted. The receipt file begins with "rec" and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the receipt file and always remember to keep that file in case there is an issue with your submission.
 
    **Note:** You must be on Odin to submit.
 
